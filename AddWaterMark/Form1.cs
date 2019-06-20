@@ -20,7 +20,7 @@ namespace AddWaterMark
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            comboBox1.Text = "下中";
+            comboBox1.Text = "下右";
             // comboBox1.
         }
         private void button1_Click(object sender, EventArgs e)
@@ -34,7 +34,8 @@ namespace AddWaterMark
 
                     this.dataGridView1.Rows[index].Cells[0].Value = i + 1;
                     this.dataGridView1.Rows[index].Cells[1].Value = openFileDialog1.FileNames[i];
-                    this.dataGridView1.Rows[index].Cells[2].Value = "";
+                    this.dataGridView1.Rows[index].Cells[2].Value = Path.GetFileName(openFileDialog1.FileNames[i]);
+                    this.dataGridView1.Rows[index].Cells[3].Value = "";
                 }
             }
         }
@@ -54,7 +55,7 @@ namespace AddWaterMark
                 Form1.AddImageSignText(
                           path,
                           Path.GetFileName(path),
-                          dataGridView1.Rows[i].Cells[2].Value.ToString(),
+                          dataGridView1.Rows[i].Cells[3].Value.ToString(),
                           comboBox1.Text,
                           100,
                          int.Parse(textBox1.Text)
