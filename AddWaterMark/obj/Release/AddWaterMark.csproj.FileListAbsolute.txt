@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\AddWaterMark-master\AddWaterMark\bin\Release\AddWaterMark.exe
+C:\Users\Administrator\Desktop\AddWaterMark-master\AddWaterMark\bin\Release\AddWaterMark.pdb
+C:\Users\Administrator\Desktop\AddWaterMark-master\AddWaterMark\obj\Release\AddWaterMark.Form1.resources
+C:\Users\Administrator\Desktop\AddWaterMark-master\AddWaterMark\obj\Release\AddWaterMark.Properties.Resources.resources
+C:\Users\Administrator\Desktop\AddWaterMark-master\AddWaterMark\obj\Release\AddWaterMark.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\AddWaterMark-master\AddWaterMark\obj\Release\AddWaterMark.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AddWaterMark-master\AddWaterMark\obj\Release\AddWaterMark.exe
+C:\Users\Administrator\Desktop\AddWaterMark-master\AddWaterMark\obj\Release\AddWaterMark.pdb
